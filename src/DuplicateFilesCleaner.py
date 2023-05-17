@@ -1,5 +1,6 @@
 import os
 import re
+
 def remove_duplicates(directory):
     for root, dirs, files in os.walk(directory):
         filedict = {}
