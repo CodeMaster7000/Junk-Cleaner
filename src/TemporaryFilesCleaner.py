@@ -2,6 +2,7 @@ import os
 import shutil
 # Directories to be searched for temporary files.
 temp_directories = [
+    '/Desktop',
     '/Library/Caches',
     '/Library/Logs',
     '/Downloads',
